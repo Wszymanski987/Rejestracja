@@ -1,5 +1,5 @@
 import react from "react";
-import styled, {css} from "styled-components";
+import styled from "styled-components";
 import LeftBox from "./LeftBox";
 import gym from "../Images/gym.jpg";
 

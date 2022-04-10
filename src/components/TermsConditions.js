@@ -17,10 +17,15 @@ const S = {
     StyledTextUnderlined: styled.div`
     color: blue;
     height: 3px;
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid #0000ff;
     `,
     StyledTextWeight: styled.b`
-    color: black;
+    color: #000000;
+    cursor: pointer;
+    tranistion: 1s;
+    :hover {
+        opacity: 0.8;
+    }
     `
 };
 
@@ -31,7 +36,7 @@ const TermsConditions = () => {
             <S.StyledText>I have read the </S.StyledText>
             <S.StyledText>
                 <S.StyledTextWeight>The terms & Conditions</S.StyledTextWeight>
-                <S.StyledTextUnderlined></S.StyledTextUnderlined>
+                <S.StyledTextUnderlined />
             </S.StyledText>
        </S.Wrapper>        
     );

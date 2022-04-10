@@ -17,10 +17,15 @@ const S = {
     StyledTextUnderlined: styled.div`
     color: blue;
     height: 3px;
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid #0000ff;
     `,
     StyledTextWeight: styled.b`
-    color: black;
+    color: #000000;
+    tranistion: 1s;
+    cursor: pointer;
+    :hover {
+        opacity: 0.8;
+    }
     `
 };
 
@@ -30,7 +35,7 @@ const LogIn = () => {
          <S.StyledText>Masz juz konto?</S.StyledText>
          <S.StyledText>
              <S.StyledTextWeight>Zaloguj się</S.StyledTextWeight>
-             <S.StyledTextUnderlined></S.StyledTextUnderlined>
+             <S.StyledTextUnderlined />
          </S.StyledText>
     </S.Wrapper>        
     );

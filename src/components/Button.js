@@ -13,9 +13,14 @@ const S = {
     border: solid #413fb5;
     border-radius: 10px;
     padding: 5px 10px;
+    cursor: pointer;
+    tranistion: 1s;
+    :hover {
+        opacity: 0.8;
+    }
     `,
     StyledText: styled.div`
-    color: white;
+    color: #ffffff;
     font-size: 22px;
     font-weight: bold;
     `,

@@ -6,7 +6,7 @@ flex: 1 1;
 border-bottom: 1px solid;
 font-size: 10px;
 padding: 0 5px;
-color: black;
+color: #0000ff;
 margin: auto;
 `;
 
@@ -38,9 +38,9 @@ const S = {
 const LineWithText = () => {
     return (
         <S.Line>
-            <S.LineBefore></S.LineBefore> 
+            <S.LineBefore />
                 <S.Text>Lub za pomocą maila</S.Text> 
-            <S.LineAfter> </S.LineAfter>
+            <S.LineAfter /> 
         </S.Line>
     );
 };

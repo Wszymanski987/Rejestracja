@@ -1,18 +1,19 @@
 import react from "react";
-import styled, {css} from "styled-components";
+import styled from "styled-components";
+
+import SocialButton from "./SocialButton";
+import instaIcon from "../Images/instaIcon.png";
 
 const S = {
     Wrapper: styled.div`
     display: flex;
     flex-direction: column;
     margin-bottom: 40px;
-    // margin-top: 10px;
     margin-left: 20px;
     `,
     SocialRegistration: styled.div`
     border: solid #413fb5;
     border-radius: 10px;
-    // padding: 10px 10px;
     margin-top: 10px;
     display: flex;
     align-items: center;
@@ -26,18 +27,15 @@ const S = {
     `
 };
 
-
 const SocialBox = () => {
 
     return (
         <S.Wrapper>
             <S.SocialRegistration>
-                <img src="/photos/fbIcon.png" alt = 'FB' />
-                <S.Text>Rejestracja przez Facebook</S.Text>
-            </S.SocialRegistration>
+                <SocialButton text="Rejestracja przez Facebook" />
+            </S.SocialRegistration>          
             <S.SocialRegistration>
-                <img src="/photos/instaIcon.png" alt = 'IG' />
-                <S.Text>Rejestracja przez Instagram</S.Text>
+                <SocialButton src={instaIcon} alt = 'IG' text="Rejestracja przez Instagram" />
             </S.SocialRegistration>
         </S.Wrapper>
     );

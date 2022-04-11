@@ -6,7 +6,6 @@ const S = {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    margin-left: 20px;
     margin-bottom: 40px;
     margin-top: 40px;
     `,
@@ -15,7 +14,7 @@ const S = {
     font-size: 15px;
     `,
     StyledTextUnderlined: styled.div`
-    color: blue;
+    color: #0000ff;
     height: 3px;
     border-bottom: 2px solid #0000ff;
     `,

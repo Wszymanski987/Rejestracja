@@ -9,11 +9,6 @@ const flexStyles = css`
     align-items: flex-start;
 `;
 
-const NameBox = styled(IdBox)`
-    width: 50%;
-    margin: 10px;
-`;
-
 const S = {
     Wrapper: styled.div`
         ${flexStyles};
@@ -28,7 +23,7 @@ const S = {
         ${flexStyles};
         flex-direction: row;
         width: 100%;
-        margin-bottom: 30px; 
+        gap: 20px; 
     `
 };
 

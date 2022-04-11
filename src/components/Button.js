@@ -9,7 +9,6 @@ const S = {
     width: 423px;
     height: 50px;
     background-color: #413fb5;
-    margin-left: 20px;
     border: solid #413fb5;
     border-radius: 10px;
     padding: 5px 10px;

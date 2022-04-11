@@ -15,17 +15,14 @@ const S = {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    padding-left: 20px;
-    `,
-    StyledHeader: styled.h2`
-    margin-left: 20px;
+    padding-left: 30px;
     `
 };
 
 const LeftBox = () => {
     return (
         <S.Wrapper>
-            <S.StyledHeader>Zarejestruj się jako trener</S.StyledHeader>
+            <h2>Zarejestruj się jako trener</h2>
             <SocialBox />
             <LineWithText />
             <MailBox />

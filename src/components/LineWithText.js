@@ -17,8 +17,6 @@ const S = {
     justify-content: space-around;
     align-items: flex-start;
     width: 440px;
-    margin-left: 20px;
-    margin-bottom: 40px;
     `,
     LineBefore: styled.p`
     ${BasicStyles},

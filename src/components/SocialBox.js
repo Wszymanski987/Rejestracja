@@ -9,7 +9,6 @@ const S = {
     display: flex;
     flex-direction: column;
     margin-bottom: 40px;
-    margin-left: 20px;
     `,
     SocialRegistration: styled.div`
     border: solid #413fb5;
